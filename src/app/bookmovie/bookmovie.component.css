@@ -13,4 +13,6 @@ select{
 h1{
     width: fit-content;
     margin: auto;
+    border-bottom:solid white 1px ;
+    padding: 0 1rem;
 }

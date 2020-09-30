@@ -1,10 +1,12 @@
 .bookingtable{
-    margin: 6rem 5rem;
+    margin: 3rem 5rem;
     border: white solid 1px;
     border-radius: 10px;
+    padding: 3rem;
 }
 .table{
     color: white;
+    font-size: 1.2rem;
 }
 tbody tr:hover{
     color: white;
@@ -13,6 +15,9 @@ tbody tr:hover{
     border-top:solid white 1px ;
     border-bottom:solid white 1px ;
 }
-*{
-    font-size: 1.2rem;
+h1{
+    width: fit-content;
+    margin: auto;
+    padding: 0 1rem;
+    border-bottom:solid white 1px ;
 }
