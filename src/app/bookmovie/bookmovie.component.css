@@ -1,0 +1,16 @@
+.form{
+    margin: 3rem 5rem;
+    padding: 3rem;
+    border-radius: 10px;
+    border: white solid 1px;
+}
+option{
+    text-transform: capitalize;
+}
+select{
+    text-transform: capitalize;
+}
+h1{
+    width: fit-content;
+    margin: auto;
+}

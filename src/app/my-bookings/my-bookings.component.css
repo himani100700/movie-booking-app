@@ -1,0 +1,18 @@
+.bookingtable{
+    margin: 6rem 5rem;
+    border: white solid 1px;
+    border-radius: 10px;
+}
+.table{
+    color: white;
+}
+tbody tr:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #415069b0;
+    border-top:solid white 1px ;
+    border-bottom:solid white 1px ;
+}
+*{
+    font-size: 1.2rem;
+}

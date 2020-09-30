@@ -1,0 +1,25 @@
+.heading1{
+    text-transform: uppercase;
+    font-size: 5rem;
+    width: fit-content;
+    margin: auto;
+    margin-top: 5rem ;
+    
+}
+.heading2{
+  color: rgba(255, 255, 255, 0.678);
+}
+.rainbow {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  } 
+.glow{
+  text-shadow: 2px 2px 10px #ffffff;
+}
+
+/* .strokeme {
+  text-shadow: 0px 0px 20px rgba(253, 253, 255, 0.486);
+  
+} */
