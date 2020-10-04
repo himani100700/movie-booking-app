@@ -6,12 +6,8 @@
       <div class="form-group my-3">
         <label for="FormControlSelect1">Movies:</label>
         <select class="form-control" id="FormControlSelect1">
+          <option *ngFor="let item of allMovies">{{item.name}}</option>
           <option>select movie</option>
-          <option>shawshank redemption</option>
-          <option>batman vs superman</option>
-          <option>avengers endgame</option>
-          <option>harry potter</option>
-          <option>aquaman</option>
         </select>
       </div>
 
@@ -19,11 +15,11 @@
         <label for="FormControlSelect2">Show Timings:</label>
         <select class="form-control" id="FormControlSelect2">
           <option>select timings</option>
-          <option>10:00</option>
-          <option>11:00</option>
+          <option *ngFor="let item of allMovies">{{item.timings.time}}</option>
+          <!-- <option>11:00</option>
           <option>12:00</option>
           <option>13:00</option>
-          <option>14:00</option>
+          <option>14:00</option> -->
         </select>
       </div>
 

@@ -6,17 +6,20 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { BookmovieComponent } from './bookmovie/bookmovie.component';
 import { MyBookingsComponent } from './my-bookings/my-bookings.component';
+import {  HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     BookmovieComponent,
-    MyBookingsComponent
+    MyBookingsComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
